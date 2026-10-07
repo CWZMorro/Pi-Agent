@@ -1,0 +1,30 @@
+{
+  "lastChangelogVersion": "1.0.4",
+  "deviceId": "7a43b4ae-c27a-4c7c-817a-a8467577b5c7",
+  "defaultProvider": "openai",
+  "defaultModel": "gpt-6.1-sol",
+  "packages": [
+    "npm:pi-venice",
+    "npm:pi-resource-center",
+    "npm:pi-web-access",
+    "npm:pi-subagents",
+    "npm:pi-mcp-adapter",
+    "npm:@abhishek944/pi-image-gen",
+    "npm:@juicesharp/rpiv-ask-user-question",
+    "npm:@juicesharp/rpiv-todo"
+  ],
+  "defaultTools": [
+    "bash",
+    "codemode",
+    "edit",
+    "find",
+    "grep",
+    "ls",
+    "read",
+    "tool_search",
+    "write"
+  ],
+  "extensions": [
+    "-builtin:mcp"
+  ]
+}

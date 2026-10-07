@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "qwen-mm-plugins-blender": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "qwen-mm-plugins[blender] @ git+https://github.com/QwenLM/Qwen-MM-Plugins.git@qwen-mm-plugins-blender-v1.1.1",
+        "qwen-mm-plugins-blender"
+      ],
+      "env": {
+        "BLENDER_BINARY": "/usr/bin/blender",
+        "QWEN_MM_AUTOLAUNCH": "1",
+        "QWEN_MM_NO_AUTO_INSTALL": "1"
+      },
+      "directTools": true
+    }
+  }
+}

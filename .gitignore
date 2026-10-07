@@ -1,0 +1,38 @@
+# Credentials and local environment secrets
+/agent/auth.json
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Conversation history and subagent runtime state
+/agent/sessions/
+/agent/pi-subagents/
+
+# Managed Pi installation and generated launcher
+/agent/install/
+/agent/bin/
+
+# Downloaded extension packages (declared in agent/settings.json)
+/agent/npm/
+node_modules/
+
+# Generated model catalogs, MCP metadata, and onboarding state
+/agent/models-store.json
+/agent/venice-model-cache.json
+/agent/mcp-cache.json
+/agent/mcp-onboarding.json
+
+# Temporary files, logs, and language caches
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# OS metadata
+.DS_Store
+Thumbs.db
